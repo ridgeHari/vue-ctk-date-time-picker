@@ -142,7 +142,7 @@
         return this.dateTime.format('YYYY')
       },
       getDateFormatted () {
-        return this.dateTime.format('ddd D MMM')
+        return this.dateTime.format('MMM D ddd')
       },
       isFormatTwelve () {
         return this.format ? (this.format.indexOf('a') > -1) || (this.format.indexOf('A') > -1) : false
